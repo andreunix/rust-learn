@@ -1,0 +1,50 @@
+# =========================
+# Rust (Cargo)
+# =========================
+
+# Build output
+target/
+
+# Cargo lock (bibliotecas ignoram, apps podem versionar)
+# Como você está estudando, pode ignorar globalmente:
+Cargo.lock
+
+# =========================
+# IDEs / Editores
+# =========================
+
+# VSCode
+.vscode/
+
+# JetBrains (CLion, IntelliJ, RustRover)
+.idea/
+
+# Vim / Neovim
+*.swp
+*.swo
+
+# =========================
+# Sistema operacional
+# =========================
+
+# Linux
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =========================
+# Logs / temporários
+# =========================
+
+*.log
+
+# =========================
+# Arquivos locais de ambiente
+# =========================
+
+.env
+.env.*
